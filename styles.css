@@ -1,0 +1,93 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+#game-container {
+    display: flex;
+    flex-direction: column;  
+    justify-content: center; 
+    align-items: center;    
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #ccc;
+    background-color: white;
+    border-radius: 10px;
+    width: 300px;
+    height: 400px;
+    position: relative; 
+}
+
+
+#number-display,
+#level-info,
+#player-input,
+#restart-btn,
+#start-btn,
+#game-over-message {
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#number-display {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#level-info {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+#player-input {
+    font-size: 1.2rem;
+    padding: 10px;
+    width: 100%; 
+    margin: 10px 0;
+    display: none; 
+    justify-content: center;
+    align-items: center;
+}
+
+#restart-btn {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    display: none;
+    cursor: pointer;
+}
+
+#restart-btn:hover {
+    background-color: #0056b3;
+}
+
+#start-btn {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#start-btn:hover {
+    background-color: #218838;
+}
+
+#game-over-message {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    color: red;
+}

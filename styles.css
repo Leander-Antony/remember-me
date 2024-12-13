@@ -8,6 +8,9 @@ body, html {
     background-color: #f0f0f0;
     font-family: Arial, sans-serif;
 }
+body, #game-container {
+    user-select: none;  /* Prevent text selection */
+}
 
 #game-container {
     display: flex;

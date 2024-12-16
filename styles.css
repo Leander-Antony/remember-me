@@ -14,7 +14,7 @@ body, html {
 
 body{
     user-select: none;
-    background-image: url(-1_orig.jpeg);
+    background-image: url(bg.jpeg);
     background-position: center;
     background-size: cover;
 }
@@ -120,16 +120,25 @@ h1{
     
 }
 
-input{
+input {
     position: absolute;
     top: 230px;
     background-color: aqua;
     line-height: 50px;
+    font-size: 1.5rem; 
+    padding: 10px; 
+    width: 80%; 
+    border: 2px solid #ccc; 
+    border-radius: 5px; 
+    text-align: center; 
 }
-input:focus{
+
+input:focus {
     outline: none;
-    
+    border-color: #007BFF; 
 }
+
+
 .over{
     position: absolute;
     top: 215px;
